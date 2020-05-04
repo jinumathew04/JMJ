@@ -3,7 +3,7 @@ package Jinu;
 /**
  * Created by joetomjob on 3/16/20.
  */
-import java. util.Scanner;
+import java.util.Scanner;
 
 public class class1 {
     public static void main(String[] args) {
