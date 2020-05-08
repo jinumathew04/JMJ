@@ -17,16 +17,19 @@ public class Human {
 
     public Human()
     {
+
         numberOfHumans++;
     }
 
     public static void print()
     {
+
         System.out.println("The number of humans is " + numberOfHumans);
     }
 
     public void introduce()
     {
+
         System.out.println("I am " + name + " and I am " + age + " years old.");
     }
 
@@ -48,9 +51,6 @@ public class Human {
         Human original = new Human();
         original.age = 50;
         original.name = "apple";
-
-
-
 
 
         jinu.copy(original);
